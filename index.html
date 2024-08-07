@@ -8,33 +8,68 @@
 </head>
 <body>
     <header>
-        <h1>AquaSummit</h1>
-        <nav>
-            <ul>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#home">AquaSummit</a>
+            </div>
+            <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
                 <li class="dropdown">
-                    <a href="#">Products</a>
+                    <a href="#">Bluesen Products</a>
                     <ul class="dropdown-content">
-                        <li><a href="#instruments">Instruments</a></li>
-                        <li><a href="#lab-equipment">Lab Equipment</a></li>
-                        <li><a href="#samplers">Samplers</a></li>
-                        <!-- Add more product categories as needed -->
+                        <li><a href="#tu90">TU90</a></li>
+                        <li><a href="#aqua2000-fcl">Aqua2000-FCL</a></li>
+                        <li><a href="#aqua2000-5x">Aqua2000-5x</a></li>
+                        <li><a href="#aqua2000-i5">Aqua2000-i5</a></li>
+                        <li><a href="#water-friend">Water Friend</a></li>
+                        <li><a href="#ads">ADS</a></li>
                     </ul>
                 </li>
+                <li class="dropdown">
+                    <a href="#">Micrometrix Products</a>
+                    <ul class="dropdown-content">
+                        <li><a href="particle-charge-analyzer.html">Particle Charge Analyzer</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">J Tech Products</a>
+                    <!-- Add sub-menu items for J Tech Products here -->
+                </li>
+                <li class="dropdown">
+                    <a href="#">Services</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#service1">Service 1</a></li>
+                        <li><a href="#service2">Service 2</a></li>
+                        <li><a href="#service3">Service 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
+            <div class="menu-toggle">
+                <div class="hamburger"></div>
+            </div>
         </nav>
     </header>
     <main>
-        <section id="home">
-            <h2>Welcome to AquaSummit</h2>
-            <p>Your solution for water treatment repairs.</p>
+        <section id="home" class="hero-section">
+            <h1>AquaSummit</h1>
+            <input type="text" id="search-bar" placeholder="Search for manuals...">
         </section>
-        <!-- Add other sections like about, services, contact here -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>AquaSummit LLC</p>
+            <p>1000 Peachtree Industrial Blvd.</p>
+            <p>Suite 6-176</p>
+            <p>Suwanee, GA 30024</p>
+            <p>Email: <a href="mailto:info@aquasummit.com">info@aquasummit.com</a></p>
+            <p>Phone: <a href="tel:+14044141636">+1 404-414-1636</a></p>
+        </section>
     </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 AquaSummit. All rights reserved.</p>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
-
